@@ -1,0 +1,42 @@
+{
+  "name": "ledger-server",
+  "version": "1.0.0",
+  "description": "This is the ledgerEngine server.",
+  "keywords": [
+    "backend",
+    "fintech",
+    "transactions",
+    "double-entry-accounting",
+    "ledger",
+    "expressjs",
+    "mongodb",
+    "backend-architecture"
+  ],
+  "homepage": "https://github.com/shreyansh-Geek/Ledger-Engine#readme",
+  "bugs": {
+    "url": "https://github.com/shreyansh-Geek/Ledger-Engine/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreyansh-Geek/Ledger-Engine.git"
+  },
+  "license": "ISC",
+  "author": "Shreyansh Pandit",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^6.21.0",
+    "mongoose": "^8.23.0",
+    "node": "^25.6.1",
+    "nodemailer": "^8.0.1"
+  }
+}
